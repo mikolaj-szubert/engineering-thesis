@@ -1,0 +1,53 @@
+{
+  "profiles": {
+    "https": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:5105"
+    },
+    "http": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "launchUrl": "api",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5105"
+    },
+    "Wyczyść bazę danych": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "commandLineArgs": "-ExecutionPolicy Bypass -NoLogo -File \"Clear-Db.ps1\"",
+      "workingDirectory": "."
+    },
+    "front-dev": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\nodejs\\npm.cmd",
+      "workingDirectory": "../mtm-web-app.client",
+      "commandLineArgs": "run dev"
+    },
+    "front-build": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\nodejs\\npm.cmd",
+      "workingDirectory": "../mtm-web-app.client",
+      "commandLineArgs": "run build && npm run preview"
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:5515",
+      "sslPort": 44378
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@MTM_Web_App.Server_HostAddress = http://localhost:5105
+
+### GET request
+GET {{MTM_Web_App.Server_HostAddress}}/hoteldata/
+Accept: application/json
+
+### GET request
+GET {{MTM_Web_App.Server_HostAddress}}/hoteldata/1
+Accept: application/json
+
+### POST request
+POST {{MTM_Web_App.Server_HostAddress}}/hoteldata/
+Content-Type: application/json
+
+{
+  "name": "Nazwa hotelu",
+  "position": [52.40, 16.92],
+  "joinDate": "2024-03-03",
+  "address": "Adres hotelu",
+  "description": "Opis hotelu"
+}
+
+### PUT request
+PUT {{MTM_Web_App.Server_HostAddress}}/hoteldata/1
+Content-Type: application/json
+
+{
+  "name": "Nowa nazwa hotelu",
+  "position": [52.50, 16.85],
+  "joinDate": "2024-03-03",
+  "address": "Nowy adres hotelu",
+  "description": "Nowy opis hotelu"
+}
+
+### DELETE request
+DELETE {{MTM_Web_App.Server_HostAddress}}/hoteldata/1
+
+
+### POST request
+POST {{MTM_Web_App.Server_HostAddress}}/user/
+Content-Type: application/json
+
+{
+  "username": "login",
+  "name": "name",
+  "surname": "surname",
+  "email": "email@domain.pl",
+  "password": "zaq1"
+}
+
+### PUT request
+PUT {{MTM_Web_App.Server_HostAddress}}/user/1
+Content-Type: application/json
+
+{
+  "username": "login",
+  "name": "name",
+  "surname": "surname",
+  "email": "email@domain.pl",
+  "password": "zaq1"
+}
+
+### DELETE request
+DELETE {{MTM_Web_App.Server_HostAddress}}/user/1

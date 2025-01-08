@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Image added!" xml:space="preserve">
+    <value>Dodano zdjęcie!</value>
+  </data>
+  <data name="User Updated." xml:space="preserve">
+    <value>Zaktualizowano użytkownika.</value>
+  </data>
+  <data name="Error occurred. Please try again later." xml:space="preserve">
+    <value>Wystąpił problem. Spróbuj ponownie później.</value>
+  </data>
+  <data name="If the problem persists, please contact us." xml:space="preserve">
+    <value>Jeśli problem się powtarza, proszę skontaktuj się z nami.</value>
+  </data>
+  <data name="You do not have profile picture." xml:space="preserve">
+    <value>Nie masz zdjęcia profilowego.</value>
+  </data>
+  <data name="Your profie picture comes from Google link." xml:space="preserve">
+    <value>Twoje zdjęcie profilowe pochodzi z linku Google.</value>
+  </data>
+  <data name="You didn't provided any profile picture to add." xml:space="preserve">
+    <value>Nie podałeś żadnego zdjęcia.</value>
+  </data>
+  <data name="Invalid image extension. Accepted formats are .png and .jpg." xml:space="preserve">
+    <value>Nieporawidłowy format zdjęcia. Akceptowane formaty to ".png" oraz ".jpg".</value>
+  </data>
+  <data name="Image Deleted!" xml:space="preserve">
+    <value>Usunięto zdjęcie!</value>
+  </data>
+  <data name="Reservation Placed!" xml:space="preserve">
+    <value>Złożono rezerwację!</value>
+  </data>
+  <data name="No reservations." xml:space="preserve">
+    <value>Brak rezerwacji.</value>
+  </data>
+  <data name="No restaurants." xml:space="preserve">
+    <value>Brak restauracji.</value>
+  </data>
+  <data name="No restaurant with given name." xml:space="preserve">
+    <value>Brak restauracji o podanej nazwie.</value>
+  </data>
+  <data name="No owned restaurants." xml:space="preserve">
+    <value>Brak posiadanych restauracji.</value>
+  </data>
+  <data name="No results for given address." xml:space="preserve">
+    <value>Brak wyników dla podanego adresu.</value>
+  </data>
+  <data name="Invalid request." xml:space="preserve">
+    <value>Nieprawidłowe żądanie.</value>
+  </data>
+  <data name="Current restaurant name cannot be empty." xml:space="preserve">
+    <value>Bieżąca nazwa restauracji nie może być pusta.</value>
+  </data>
+  <data name="Given name is already taken." xml:space="preserve">
+    <value>Podana nazwa jest już zajęta.</value>
+  </data>
+  <data name="You do not own restaurant with given name." xml:space="preserve">
+    <value>Nie jesteś właścicielem restauracji o podanej nazwie.</value>
+  </data>
+  <data name="Given currency is not yet supported." xml:space="preserve">
+    <value>Podana waluta nie jest jeszcze wspierana.</value>
+  </data>
+  <data name="Invalid opening time format." xml:space="preserve">
+    <value>Nieprawidłowy format godziny otwarcia.</value>
+  </data>
+  <data name="Invalid closing time format." xml:space="preserve">
+    <value>Nieprawidłowy format godziny zamknięcia.</value>
+  </data>
+  <data name="Restaurant deleted" xml:space="preserve">
+    <value>Restauracja usunięta.</value>
+  </data>
+  <data name="File does not exist." xml:space="preserve">
+    <value>Plik nie istnieje.</value>
+  </data>
+  <data name="No images added." xml:space="preserve">
+    <value>Nie dodano zdjęć.</value>
+  </data>
+  <data name="Missing restaurant name." xml:space="preserve">
+    <value>Brak nazwy restauracji.</value>
+  </data>
+  <data name="Given restaurant does not exist." xml:space="preserve">
+    <value>Podana restauracja nie istnieje.</value>
+  </data>
+  <data name="Invalid data." xml:space="preserve">
+    <value>Nieprawidłowe dane.</value>
+  </data>
+  <data name="Invalid reservation start time format." xml:space="preserve">
+    <value>Nieprawidłowy format godziny rozpoczęcia rezerwacji.</value>
+  </data>
+  <data name="Invalid reservation end time format." xml:space="preserve">
+    <value>Nieprawidłowy format godziny zakończenia rezerwacji.</value>
+  </data>
+  <data name="Invalid email." xml:space="preserve">
+    <value>Nieprawidłowy email.</value>
+  </data>
+  <data name="Login using Google and then set your password." xml:space="preserve">
+    <value>Zaloguj się kontem Google i wtedy ustaw hasło.</value>
+  </data>
+  <data name="Invalid credentials." xml:space="preserve">
+    <value>Nieprawidłowe dane uwierzytelniające.</value>
+  </data>
+  <data name="Error retrieving OAuth token." xml:space="preserve">
+    <value>Błąd podczas pobierania tokenu OAuth.</value>
+  </data>
+  <data name="Something went wrong. Try again later." xml:space="preserve">
+    <value>Coś poszło nie tak. Spróbuj ponownie później.</value>
+  </data>
+  <data name="Invalid email address." xml:space="preserve">
+    <value>Nieprawidłowy adres email.</value>
+  </data>
+  <data name="Email already exist. Try logging in." xml:space="preserve">
+    <value>Podany email już istnieje w bazie danych. Spróbuj się zalogować.</value>
+  </data>
+  <data name="Logged out successfully." xml:space="preserve">
+    <value>Wylogowano!</value>
+  </data>
+  <data name="Your email has been already verified." xml:space="preserve">
+    <value>Twój email został zweryfikowany!</value>
+  </data>
+  <data name="Your One-Time Code is invalid." xml:space="preserve">
+    <value>Twój kod weryfikacyjny jest niepoprawny</value>
+  </data>
+  <data name="Your email address has been verified!" xml:space="preserve">
+    <value>Podany kod jest poprawny!</value>
+  </data>
+  <data name="One-Time Code has been sent." xml:space="preserve">
+    <value>Email weryfikacyjny został wysłany.</value>
+  </data>
+  <data name="Deleted!" xml:space="preserve">
+    <value>Usunięto!</value>
+  </data>
+  <data name="Restaurant updated!" xml:space="preserve">
+    <value>Restauracja zaktualizowana!</value>
+  </data>
+  <data name="Restaurant added!" xml:space="preserve">
+    <value>Restauracja dodana!</value>
+  </data>
+  <data name="Images added!" xml:space="preserve">
+    <value>Dodano zdjęcia!</value>
+  </data>
+  <data name="No hotels." xml:space="preserve">
+    <value>Brak hoteli.</value>
+  </data>
+  <data name="You do not own hotel with given name." xml:space="preserve">
+    <value>Nie jesteś właścicielem hotelu o podanej nazwie.</value>
+  </data>
+  <data name="Invalid check-in time format." xml:space="preserve">
+    <value>Nieprawidłowy format godziny zameldowania.</value>
+  </data>
+  <data name="Invalid check-out time format." xml:space="preserve">
+    <value>Nieprawidłowy format godziny wymeldowania.</value>
+  </data>
+  <data name="Hotel updated!" xml:space="preserve">
+    <value>Zaktualizowano hotel!</value>
+  </data>
+  <data name="Hotel added!" xml:space="preserve">
+    <value>Dodano hotel!</value>
+  </data>
+  <data name="Hotel deleted" xml:space="preserve">
+    <value>Usunięto hotel.</value>
+  </data>
+  <data name="Specified hotel does not exist." xml:space="preserve">
+    <value>Podany hotel nie istnieje.</value>
+  </data>
+  <data name="Specified room does not exist." xml:space="preserve">
+    <value>Podany pokój nie istnieje.</value>
+  </data>
+  <data name="Invalid file extension." xml:space="preserve">
+    <value>Nieprawidłowe rozszerzenie pliku.</value>
+  </data>
+  <data name="Missing name" xml:space="preserve">
+    <value>Brak nazwy.</value>
+  </data>
+  <data name="You do not have permission to do that." xml:space="preserve">
+    <value>Nie masz do tego uprawnień.</value>
+  </data>
+  <data name="Verify your email address first." xml:space="preserve">
+    <value>Zweryfikuj swój adres email najpierw.</value>
+  </data>
+  <data name="No logs." xml:space="preserve">
+    <value>Brak logów.</value>
+  </data>
+  <data name="Request was cancelled." xml:space="preserve">
+    <value>Żądanie zostało anulowane.</value>
+  </data>
+  <data name="Reservation" xml:space="preserve">
+    <value>Rezerwacja</value>
+  </data>
+  <data name="Your reservation" xml:space="preserve">
+    <value>Twoja rezerwacja - </value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Imię i nazwisko</value>
+  </data>
+  <data name="Parameter" xml:space="preserve">
+    <value>Parametr</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Wartość</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Cena</value>
+  </data>
+  <data name="Number of guests" xml:space="preserve">
+    <value>Liczba gości</value>
+  </data>
+  <data name="Check out" xml:space="preserve">
+    <value>Wymeldowanie</value>
+  </data>
+  <data name="Check in" xml:space="preserve">
+    <value>Zameldowanie</value>
+  </data>
+  <data name="Reservation QR code:" xml:space="preserve">
+    <value>Kod QR do rezerwacji:</value>
+  </data>
+  <data name="HelloUser" xml:space="preserve">
+    <value>Cześć, {0}</value>
+  </data>
+  <data name="VerificationMessage" xml:space="preserve">
+    <value>Aby ukończyć proces weryfikacji, użyj następującego jednorazowego kodu:</value>
+  </data>
+  <data name="IgnoreEmail" xml:space="preserve">
+    <value>Jeśli nie oczkiwałeś tego kodu, zignoruj ten e-mail.</value>
+  </data>
+  <data name="BestRegards" xml:space="preserve">
+    <value>Z poważaniem, MTM</value>
+  </data>
+  <data name="FooterMessage" xml:space="preserve">
+    <value>&amp;copy; 2025 MTM. Wszelkie prawa zastrzeżone.</value>
+  </data>
+  <data name="OTCEmailTitle" xml:space="preserve">
+    <value>Twój jednorazowy kod weryfikacyjny</value>
+  </data>
+  <data name="Reservation Details" xml:space="preserve">
+    <value>Szczegóły rezerwacji</value>
+  </data>
+  <data name="This code is valid for the next 10 minutes. Please do not share it with anyone." xml:space="preserve">
+    <value>Ten kod jest ważny przez 10 minut. Pod żadnym pozorem nie udostępniaj go nikomu.</value>
+  </data>
+  <data name="Thank you for your reservation at" xml:space="preserve">
+    <value>Dziękujemy za Twoją rezerwację w</value>
+  </data>
+  <data name="Your reservation details are as follows:" xml:space="preserve">
+    <value>Szczegóły rezerwacji są następujące:</value>
+  </data>
+  <data name="If you have any questions or need to make changes to your reservation, please do not hesitate to contact us." xml:space="preserve">
+    <value>W przypadku jakichkolwiek pytań lub konieczności wprowadzenia zmian w rezerwacji, prosimy o kontakt.</value>
+  </data>
+  <data name="We look forward to welcoming you!" xml:space="preserve">
+    <value>Czekamy na Ciebie z niecierpliwością!</value>
+  </data>
+  <data name="Inavalid date." xml:space="preserve">
+    <value>Niepoprawna data.</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Incorrect facilities." xml:space="preserve">
+    <value>Niepoprawne udogodnienia.</value>
+  </data>
+  <data name="No hotels with specified filters." xml:space="preserve">
+    <value>Brak hoteli o podanych filtrach.</value>
+  </data>
+  <data name="InvalidOpenTimes" xml:space="preserve">
+    <value>Niepoprawne godziny otwarcia</value>
+  </data>
+  <data name="Reservation number:" xml:space="preserve">
+    <value>Numer rezerwacji:</value>
+  </data>
+  <data name="No restaurants with specified filters." xml:space="preserve">
+    <value>Brak restauracji z podanymi filtrami.</value>
+  </data>
+  <data name="Specified restaraurant does not exist." xml:space="preserve">
+    <value>Podana restauracja nie istnieje.</value>
+  </data>
+  <data name="Reservation Reminder" xml:space="preserve">
+    <value>Przypomnienie o rezerwacji</value>
+  </data>
+  <data name="This is a friendly reminder about your upcoming reservation at" xml:space="preserve">
+    <value>Przypominamy o Twojej rezerwacji w</value>
+  </data>
+  <data name="Here are the details of your reservation:" xml:space="preserve">
+    <value>Oto szczegóły Twojej rezerwacji:</value>
+  </data>
+  <data name="If you have any questions or need to update your reservation, feel free to reach out to us." xml:space="preserve">
+    <value>Jeśli masz pytania lub potrzebujesz wprowadzić zmiany w swojej rezerwacji, skontaktuj się z nami.</value>
+  </data>
+  <data name="Safe travels, and we look forward to welcoming you tomorrow!" xml:space="preserve">
+    <value>Bezpiecznej podróży. Czekamy na Twoje przybycie jutro!</value>
+  </data>
+  <data name="Given address is invalid." xml:space="preserve">
+    <value>Podany adres jest nieprawidłowy.</value>
+  </data>
+  <data name="This is a reminder about your reservation at" xml:space="preserve">
+    <value>Przypominamy o twojej rezerwacji w obiekcie</value>
+  </data>
+  <data name="scheduled for tomorrow" xml:space="preserve">
+    <value>zaplanowanej na jutro</value>
+  </data>
+</root>

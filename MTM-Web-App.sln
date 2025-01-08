@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTM_Web_App.Server", "MTM-Web-App.Server\MTM_Web_App.Server.csproj", "{3C262DD6-8BEE-4613-8889-22F439EE66B3}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "mtm-web-app.client", "mtm-web-app.client\mtm-web-app.client.esproj", "{AEB301A4-B7E1-4CE4-A1D4-F2366725DBFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2544C815-13EB-4615-B1AA-32E702067C74}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C262DD6-8BEE-4613-8889-22F439EE66B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C262DD6-8BEE-4613-8889-22F439EE66B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C262DD6-8BEE-4613-8889-22F439EE66B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C262DD6-8BEE-4613-8889-22F439EE66B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB301A4-B7E1-4CE4-A1D4-F2366725DBFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB301A4-B7E1-4CE4-A1D4-F2366725DBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB301A4-B7E1-4CE4-A1D4-F2366725DBFF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AEB301A4-B7E1-4CE4-A1D4-F2366725DBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB301A4-B7E1-4CE4-A1D4-F2366725DBFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB301A4-B7E1-4CE4-A1D4-F2366725DBFF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8948A2FF-4C01-47A0-ABD5-15CA328F1713}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+.logout:hover {
+    background-color: #f31260 !important;
+    color: white !important;
+    transition: background-color ease-in-out .2s;
+    transition: all ease-in-out .2s;
+}
+iframe {
+    color-scheme: normal;
+}
+.dark .nav {
+    z-index: 50;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-bottom: 1px solid #333;
+}

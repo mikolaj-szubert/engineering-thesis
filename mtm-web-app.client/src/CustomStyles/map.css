@@ -1,0 +1,15 @@
+body{
+    height: 100%;
+}
+.map * {
+    z-index: 0;
+}
+
+.map > * {
+    z-index: 0;
+}
+
+.map {
+    width: 100dvw;
+    height: calc(100%-2.5rem);
+}

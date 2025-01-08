@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Image added!" xml:space="preserve">
+    <value>Image added!</value>
+  </data>
+  <data name="User Updated." xml:space="preserve">
+    <value>User updated.</value>
+  </data>
+  <data name="Error occurred. Please try again later." xml:space="preserve">
+    <value>Error occurred. Please try again later.</value>
+  </data>
+  <data name="If the problem persists, please contact us." xml:space="preserve">
+    <value>If the problem persists, please contact us.</value>
+  </data>
+  <data name="You do not have profile picture." xml:space="preserve">
+    <value>You do not have profile picture.</value>
+  </data>
+  <data name="Your profie picture comes from Google link." xml:space="preserve">
+    <value>Your profie picture comes from Google link.</value>
+  </data>
+  <data name="You didn't provided any profile picture to add." xml:space="preserve">
+    <value>You didn't provided any profile picture to add.</value>
+  </data>
+  <data name="Invalid image extension. Accepted formats are .png and .jpg." xml:space="preserve">
+    <value>Invalid image extension. Accepted formats are ".png" and ".jpg".</value>
+  </data>
+  <data name="Image Deleted!" xml:space="preserve">
+    <value>Image deleted!</value>
+  </data>
+  <data name="Reservation Placed!" xml:space="preserve">
+    <value>Reservation placed!</value>
+  </data>
+  <data name="No reservations." xml:space="preserve">
+    <value>No reservations.</value>
+  </data>
+  <data name="No restaurants." xml:space="preserve">
+    <value>No restaurants.</value>
+  </data>
+  <data name="No restaurant with given name." xml:space="preserve">
+    <value>No restaurant with given name.</value>
+  </data>
+  <data name="No owned restaurants." xml:space="preserve">
+    <value>No owned restaurants.</value>
+  </data>
+  <data name="No results for given address." xml:space="preserve">
+    <value>No results for given address.</value>
+  </data>
+  <data name="Invalid request." xml:space="preserve">
+    <value>Invalid request.</value>
+  </data>
+  <data name="Current restaurant name cannot be empty." xml:space="preserve">
+    <value>Current restaurant name cannot be empty.</value>
+  </data>
+  <data name="Given name is already taken." xml:space="preserve">
+    <value>Given name is already taken.</value>
+  </data>
+  <data name="You do not own restaurant with given name." xml:space="preserve">
+    <value>You do not own restaurant with given name.</value>
+  </data>
+  <data name="Given currency is not yet supported." xml:space="preserve">
+    <value>Given currency is not yet supported.</value>
+  </data>
+  <data name="Invalid opening time format." xml:space="preserve">
+    <value>Invalid opening time format.</value>
+  </data>
+  <data name="Invalid closing time format." xml:space="preserve">
+    <value>Invalid closing time format.</value>
+  </data>
+  <data name="Restaurant deleted" xml:space="preserve">
+    <value>Restaurant deleted.</value>
+  </data>
+  <data name="File does not exist." xml:space="preserve">
+    <value>File does not exist.</value>
+  </data>
+  <data name="No images added." xml:space="preserve">
+    <value>No images added.</value>
+  </data>
+  <data name="Missing restaurant name." xml:space="preserve">
+    <value>Missing restaurant name.</value>
+  </data>
+  <data name="Given restaurant does not exist." xml:space="preserve">
+    <value>Given restaurant does not exist.</value>
+  </data>
+  <data name="Invalid data." xml:space="preserve">
+    <value>Invalid data.</value>
+  </data>
+  <data name="Invalid reservation start time format." xml:space="preserve">
+    <value>Invalid reservation start time format.</value>
+  </data>
+  <data name="Invalid reservation end time format." xml:space="preserve">
+    <value>Invalid reservation end time format.</value>
+  </data>
+  <data name="Invalid email." xml:space="preserve">
+    <value>Invalid email.</value>
+  </data>
+  <data name="Login using Google and then set your password." xml:space="preserve">
+    <value>Login using Google and then set your password.</value>
+  </data>
+  <data name="Invalid credentials." xml:space="preserve">
+    <value>Invalid credentials.</value>
+  </data>
+  <data name="Error retrieving OAuth token." xml:space="preserve">
+    <value>Error retrieving OAuth token.</value>
+  </data>
+  <data name="Something went wrong. Try again later." xml:space="preserve">
+    <value>Something went wrong. Try again later.</value>
+  </data>
+  <data name="Invalid email address." xml:space="preserve">
+    <value>Invalid email address.</value>
+  </data>
+  <data name="Email already exist. Try logging in." xml:space="preserve">
+    <value>Email already exist. Try logging in.</value>
+  </data>
+  <data name="Logged out successfully." xml:space="preserve">
+    <value>Logged out!</value>
+  </data>
+  <data name="Your email has been already verified." xml:space="preserve">
+    <value>Your email has been already verified.</value>
+  </data>
+  <data name="Your One-Time Code is invalid." xml:space="preserve">
+    <value>Your One-Time Code is invalid</value>
+  </data>
+  <data name="Your email address has been verified!" xml:space="preserve">
+    <value>One-time code is valid!</value>
+  </data>
+  <data name="One-Time Code has been sent." xml:space="preserve">
+    <value>One-Time Code has been sent.</value>
+  </data>
+  <data name="Deleted!" xml:space="preserve">
+    <value>Deleted!</value>
+  </data>
+  <data name="Restaurant updated!" xml:space="preserve">
+    <value>Restaurant updated!</value>
+  </data>
+  <data name="Restaurant added!" xml:space="preserve">
+    <value>Restaurant added!</value>
+  </data>
+  <data name="Images added!" xml:space="preserve">
+    <value>Images added!</value>
+  </data>
+  <data name="No hotels." xml:space="preserve">
+    <value>No hotels.</value>
+  </data>
+  <data name="You do not own hotel with given name." xml:space="preserve">
+    <value>You do not own hotel with given name.</value>
+  </data>
+  <data name="Invalid check-in time format." xml:space="preserve">
+    <value>Invalid check-in time format.</value>
+  </data>
+  <data name="Invalid check-out time format." xml:space="preserve">
+    <value>Invalid check-out time format.</value>
+  </data>
+  <data name="Hotel updated!" xml:space="preserve">
+    <value>Hotel updated!</value>
+  </data>
+  <data name="Hotel added!" xml:space="preserve">
+    <value>Hotel added!</value>
+  </data>
+  <data name="Hotel deleted" xml:space="preserve">
+    <value>Hotel deleted.</value>
+  </data>
+  <data name="Specified hotel does not exist." xml:space="preserve">
+    <value>Specified hotel does not exist.</value>
+  </data>
+  <data name="Specified room does not exist." xml:space="preserve">
+    <value>Specified room does not exist.</value>
+  </data>
+  <data name="Invalid file extension." xml:space="preserve">
+    <value>Invalid file extension.</value>
+  </data>
+  <data name="Missing name" xml:space="preserve">
+    <value>Missing name.</value>
+  </data>
+  <data name="You do not have permission to do that." xml:space="preserve">
+    <value>You do not have permission to do that.</value>
+  </data>
+  <data name="Verify your email address first." xml:space="preserve">
+    <value>Verify your email address first.</value>
+  </data>
+  <data name="No logs." xml:space="preserve">
+    <value>No logs.</value>
+  </data>
+  <data name="Request was cancelled." xml:space="preserve">
+    <value>Request was cancelled.</value>
+  </data>
+  <data name="Reservation" xml:space="preserve">
+    <value>Reservation</value>
+  </data>
+  <data name="Your reservation" xml:space="preserve">
+    <value>Your reservation - </value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Parameter" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="Number of guests" xml:space="preserve">
+    <value>Number of guests</value>
+  </data>
+  <data name="Check out" xml:space="preserve">
+    <value>Check out</value>
+  </data>
+  <data name="Check in" xml:space="preserve">
+    <value>Check in</value>
+  </data>
+  <data name="Reservation QR code:" xml:space="preserve">
+    <value>Reservation QR code:</value>
+  </data>
+  <data name="HelloUser" xml:space="preserve">
+    <value>Hello, {0}</value>
+  </data>
+  <data name="VerificationMessage" xml:space="preserve">
+    <value>To complete your verification process, please use the following one-time code:</value>
+  </data>
+  <data name="IgnoreEmail" xml:space="preserve">
+    <value>If you didn't request this code, please ignore this email.</value>
+  </data>
+  <data name="BestRegards" xml:space="preserve">
+    <value>Best regards, MTM</value>
+  </data>
+  <data name="FooterMessage" xml:space="preserve">
+    <value>&amp;copy; 2025 MTM. All rights reserved.</value>
+  </data>
+  <data name="OTCEmailTitle" xml:space="preserve">
+    <value>Your one-time code</value>
+  </data>
+  <data name="Reservation Details" xml:space="preserve">
+    <value>Reservation Details</value>
+  </data>
+  <data name="This code is valid for the next 10 minutes. Please do not share it with anyone." xml:space="preserve">
+    <value>This code is valid for the next 10 minutes. Please do not share it with anyone.</value>
+  </data>
+  <data name="Thank you for your reservation at" xml:space="preserve">
+    <value>Thank you for your reservation at</value>
+  </data>
+  <data name="Your reservation details are as follows:" xml:space="preserve">
+    <value>Your reservation details are as follows:</value>
+  </data>
+  <data name="If you have any questions or need to make changes to your reservation, please do not hesitate to contact us." xml:space="preserve">
+    <value>If you have any questions or need to make changes to your reservation, please do not hesitate to contact us.</value>
+  </data>
+  <data name="We look forward to welcoming you!" xml:space="preserve">
+    <value>We look forward to welcoming you!</value>
+  </data>
+  <data name="Inavalid date." xml:space="preserve">
+    <value>Invalid date.</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Incorrect facilities." xml:space="preserve">
+    <value>Incorrect facilities.</value>
+  </data>
+  <data name="No hotels with specified filters." xml:space="preserve">
+    <value>No hotels with specified filters.</value>
+  </data>
+  <data name="InvalidOpenTimes" xml:space="preserve">
+    <value>Invalid open times</value>
+  </data>
+  <data name="Reservation number:" xml:space="preserve">
+    <value>Reservation number:</value>
+  </data>
+  <data name="No restaurants with specified filters." xml:space="preserve">
+    <value>No restaurants with specified filters.</value>
+  </data>
+  <data name="Specified restaraurant does not exist." xml:space="preserve">
+    <value>Specified restaraurant does not exist.</value>
+  </data>
+  <data name="Reservation Reminder" xml:space="preserve">
+    <value>Reservation Reminder</value>
+  </data>
+  <data name="This is a friendly reminder about your upcoming reservation at" xml:space="preserve">
+    <value>This is a friendly reminder about your upcoming reservation at</value>
+  </data>
+  <data name="Here are the details of your reservation:" xml:space="preserve">
+    <value>Here are the details of your reservation:</value>
+  </data>
+  <data name="If you have any questions or need to update your reservation, feel free to reach out to us." xml:space="preserve">
+    <value>If you have any questions or need to update your reservation, feel free to reach out to us.</value>
+  </data>
+  <data name="Safe travels, and we look forward to welcoming you tomorrow!" xml:space="preserve">
+    <value>Safe travels, and we look forward to welcoming you tomorrow!</value>
+  </data>
+  <data name="Given address is invalid." xml:space="preserve">
+    <value>Given address is invalid.</value>
+  </data>
+  <data name="This is a reminder about your reservation at" xml:space="preserve">
+    <value>This is a reminder about your reservation at</value>
+  </data>
+  <data name="scheduled for tomorrow" xml:space="preserve">
+    <value>scheduled for tomorrow</value>
+  </data>
+</root>

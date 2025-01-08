@@ -1,0 +1,1 @@
+cd mtm-web-app.client && npm run build && cd ..\MTM-Web-App.Server && dotnet run -c Release

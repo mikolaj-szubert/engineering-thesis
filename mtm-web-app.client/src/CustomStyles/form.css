@@ -1,0 +1,25 @@
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+    -webkit-text-fill-color: black;
+}
+
+input:-webkit-autofill:focus {
+    -webkit-text-fill-color: black;
+}
+
+input:-webkit-autofill:hover {
+    -webkit-text-fill-color: black;
+}
+
+.dark input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px black inset;
+    -webkit-text-fill-color: white;
+}
+
+.dark input:-webkit-autofill:focus {
+    -webkit-text-fill-color: white;
+}
+
+.dark input:-webkit-autofill:hover {
+    -webkit-text-fill-color: white;
+}
